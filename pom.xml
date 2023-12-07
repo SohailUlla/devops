@@ -14,16 +14,15 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
 
-        <!-- <sonar.host.url>http://34.205.71.126:9000</sonar.host.url>
+        <sonar.host.url>http://34.205.71.126:9000</sonar.host.url>
         <sonar.organization>javademo</sonar.organization>
         <sonar.projectKey>javademo</sonar.projectKey>
         <sonar.login>sqp_7575bae09a9de979e539e5eb9eacbc58a6e29a23</sonar.login>
 
-         
-          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.organization>binarycloud</sonar.organization>
-          <sonar.projectKey>binarycloud_java</sonar.projectKey>
-          <sonar.login>91731974774e511364f7a331a32f7826298f5d50</sonar.login>
+          <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+          <sonar.organization>Binary_Ops</sonar.organization>  
+          <sonar.projectKey>binary-ops_javaapps</sonar.projectKey>
+          <sonar.login>101a1bd12218e41b08df5c3e1b60607a894a0bbd</sonar.login> -->
     </properties>
 
        
