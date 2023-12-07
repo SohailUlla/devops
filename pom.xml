@@ -19,10 +19,10 @@
         <sonar.projectKey>javademo</sonar.projectKey>
         <sonar.login>sqp_7575bae09a9de979e539e5eb9eacbc58a6e29a23</sonar.login>
 
-          <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.organization>binaryops</sonar.organization>  
-          <sonar.projectKey>binaryops_javaapps</sonar.projectKey>
-          <sonar.login>274dad7664a55ece78dcfeb5f17862d2eb7b7e0a</sonar.login> -->
+           <!-- <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+           <sonar.organization>binary-ops</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+           <sonar.login>101a1bd12218e41b08df5c3e1b60607a894a0bbd</sonar.login> -->
     </properties>
 
        
