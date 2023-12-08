@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Stage-0 : Static Code Analysis') { 
             steps {
-                sh 'mvn verify sonar:sonar'
+                sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=binary-ops_javaapps'
             }
         }
         stage('Stage-1 : Clean') { 
