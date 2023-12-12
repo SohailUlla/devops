@@ -53,14 +53,14 @@ pipeline {
             }
            }
 
-          stage('Stage-9 : Deployment - Deploy a Artifact cloudbinarydevops-2.0.0-SNAPSHOT.war file to Tomcat Server') { 
+          stage('Stage-9 : Deployment - Deploy a Artifact cloudbinarydevops-3.6.0-SNAPSHOT.war file to Tomcat Server') { 
             steps {
-                sh 'curl -u admin:redhat@123 -T target/**.war "http://34.224.216.158/manager/text/deploy?path=/cloudbinary&update=true"'
+                sh 'curl -u admin:redhat@123 -T target/**.war "http://107.21.147.94:8080/manager/text/deploy?path=/kesav&update=true"'
             }
         } 
           stage('Stage-10 : SmokeTest') { 
             steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://34.224.216.158/cloudbinary"'
+                sh 'curl --retry-delay 10 --retry 5 "http://107.21.147.94:8080/kesav"'
             }
         }
     }
